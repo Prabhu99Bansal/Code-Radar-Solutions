@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a;
-    Hexadecimal=hex(a);
-    Octal=oct(a);
+    Hexadecimal=Hexadecimal(a);
+    Octal=Octal(a);
     scanf("%d",&a);
     printf("Hexadecimal: ",Hexadecimal);
     printf("Octal: ",Octal);
