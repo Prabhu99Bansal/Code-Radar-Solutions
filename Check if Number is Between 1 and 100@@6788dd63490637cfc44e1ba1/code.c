@@ -5,11 +5,11 @@ int main(){
     if (1<=a<=100){
         printf("In Range");
     }
-    else if (a==0){
+    else if (a<=0 && a>100){
         printf("Out of Range");
     }
     else{
-        printf("Out of Range");
+        printf("invalid");
     }
     return 0;
 }
