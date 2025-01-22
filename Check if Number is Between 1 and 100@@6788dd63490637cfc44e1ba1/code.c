@@ -6,7 +6,7 @@ int main(){
         printf("In Range");
     }
     else if (a==0){
-        printf("inv");
+        printf("Out of Range");
     }
     else{
         printf("Out of Range");
