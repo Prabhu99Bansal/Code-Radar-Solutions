@@ -11,6 +11,6 @@ int main(){
         printf("Lowercase");
     }
     else{
-        printf("Not an alphabhet");
+        printf("Not an alphabet");
     }
 }
