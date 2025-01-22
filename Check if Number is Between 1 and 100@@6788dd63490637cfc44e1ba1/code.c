@@ -9,7 +9,7 @@ int main(){
         printf("Out of Range");
     }
     else{
-        printf("INVALID")
+        printf("INVALID");
     }
     return 0;
 }
