@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a
+    int a;
     scanf("%d",&a);
     
     if (a%5==0 && a%11==0){
