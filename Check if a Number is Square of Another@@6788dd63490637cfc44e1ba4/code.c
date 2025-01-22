@@ -3,11 +3,11 @@ int main(){
     int a,b;
     scanf("%d",&a);
     scanf("%d",&b);
-    if ((a*a)==b ){
-        printf("No");
+    if ((a*a)==b  && a%b==0){
+        printf("Yes");
     }
     else{
-        printf("Yes");
+        printf("No");
     }
     return 0;
 
