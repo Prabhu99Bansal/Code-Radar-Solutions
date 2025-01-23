@@ -5,7 +5,7 @@ int main(){
 
     scanf("%d",&a);
     scanf("%d",&b);
-    scanf("%c",&c);
+    scanf("% c",&c);
     if (c=='+'){
         printf("%d",a+b);
     }
@@ -17,7 +17,7 @@ int main(){
 
     }
     else{
-        printf("%f",a/b);
+        printf("%d",a/b);
     }
     return 0;
 
