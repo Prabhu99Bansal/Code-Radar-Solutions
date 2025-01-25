@@ -2,22 +2,24 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if (a>=90){
+    switch (a){
+        case 90...100:
         printf("A");
-    }
-    else if (90>a>=80){
+        break;
+        case 80 ...89:
         printf("B");
-    }
-    else if (80>a>=70){
+        break;
+        case 70...79:
         printf("C");
-    }
-    else if(70>a>=60){
+        break;
+        case 60...69:
         printf("D");
-    }
-    else if (a<60){
+        break;
+        case a<60:
         printf("F");
-    }
-    else{
-        printf("INvalid input");
-    }
+        break;
+        default:
+        printf("INVALID");
+        break;}
+        return 0;
 }
