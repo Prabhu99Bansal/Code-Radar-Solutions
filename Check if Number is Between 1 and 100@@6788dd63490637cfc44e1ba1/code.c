@@ -2,14 +2,15 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if (1<=a<=100){
-        printf("In Range");
-    }
-    else if (a==0){
+    if (a==0){
         printf("Out of Range");
     }
+    else if(100>=a>=1){
+        printf("In Range");
+        
+    }
     else{
-        printf("INVALID");
+        printf("Invalid");
     }
     return 0;
 }
