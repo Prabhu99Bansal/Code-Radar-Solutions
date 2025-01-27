@@ -4,6 +4,6 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     bit =( (1<<b) | a) ;
-    printf("%d",n);
+    printf("%d",a);
     return 0;
  }
