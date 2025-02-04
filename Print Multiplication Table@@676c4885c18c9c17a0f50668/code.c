@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int i,j;
-    scanf("%d",&j);
-    for (i=1,i<=10;i++){
-        printf("%dx%d=%d\n",j,i,j*i);
+    int a,q;
+    scanf("%d",&a);
+    for(q=1;q<=10;q++){
+        printf("%dx%d=%d",a,q,a*q);
     }
     return 0;
 }
