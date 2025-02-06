@@ -1,25 +1,21 @@
 #include <stdio.h>
-int main(){
+int main() {
     int a;
-    scanf("%d",&a);
-    switch (a){
-        case 90...100:
+    scanf("%d", &a);
+
+    if (a >= 90 && a <= 100) {
         printf("A");
-        break;
-        case 80 ...89:
+    } else if (a >= 80 && a <= 89) {
         printf("B");
-        break;
-        case 70...79:
+    } else if (a >= 70 && a <= 79) {
         printf("C");
-        break;
-        case 60...69:
+    } else if (a >= 60 && a <= 69) {
         printf("D");
-        break;
-        case a<60:
+    } else if (a >= 0 && a < 60) {
         printf("F");
-        break;
-        default:
+    } else {
         printf("INVALID");
-        break;}
-        return 0;
+    }
+
+    return 0;
 }
