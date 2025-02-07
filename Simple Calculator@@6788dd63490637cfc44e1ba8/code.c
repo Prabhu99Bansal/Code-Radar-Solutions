@@ -3,7 +3,7 @@ int main(){
     int a,b;
     char c;
     scanf("%d",&a);
-    scanf(" %d",&b);
+    scanf("%d",&b);
     scanf(" %c",&c);
     switch (c){
         case '+':
@@ -16,7 +16,13 @@ int main(){
         printf("%d",a*b);
         break;
         case '/':
-        printf("%f",a/b);
+        if (b!=0){
+            printf("%.2f",a/b);
+        }
+        else{
+            printf("ZERO DIVISION ERROR");
+        }
+        printf("%f",(float)a/b);
         break;
         default:
         printf("Invalid");
