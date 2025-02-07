@@ -22,7 +22,7 @@ int main(){
         else{
             printf("ZERO DIVISION ERROR");
         }
-        printf("%f",(float)a/b);
+        
         break;
         default:
         printf("Invalid");
