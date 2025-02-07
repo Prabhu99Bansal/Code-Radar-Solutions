@@ -20,7 +20,7 @@ int main(){
             printf("%.2f",a/b);
         }
         else{
-            printf("ZERO DIVISION ERROR");
+            printf("error");
         }
         
         break;
