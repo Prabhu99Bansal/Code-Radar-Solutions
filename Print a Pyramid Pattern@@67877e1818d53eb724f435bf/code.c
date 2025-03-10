@@ -15,7 +15,6 @@ void printPyramid(int n) {
 
 int main() {
     int N;
-    printf();
     scanf("%d", &N);
     printPyramid(N);
     return 0;
