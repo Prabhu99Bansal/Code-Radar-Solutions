@@ -1,6 +1,6 @@
 // Your ode here...
 #include <stdio.h> 
-bubblesort(int arr[] , int n){
+bubbleSort(int arr[] , int n){
     for(int i=0;i<n;i++){
     int flag = 0;
     for(int j=0; j<n-1-i;j++){
@@ -16,7 +16,7 @@ bubblesort(int arr[] , int n){
     }
 }
 }
-printsorted(int arr[] , int n){
+printSorted(int arr[] , int n){
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
@@ -28,8 +28,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubblesort(arr,n);
-    printsorted(arr,n);
+    bubbleSort(arr,n);
+    printSorted(arr,n);
     return 0;
 
     
