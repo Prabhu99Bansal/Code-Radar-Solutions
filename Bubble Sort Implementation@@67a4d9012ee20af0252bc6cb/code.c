@@ -1,5 +1,6 @@
-// Your code here...
-bubblesort(int arr , int n){
+// Your ode here...
+#include <stdio.h> 
+bubblesort(int arr[] , int n){
     for(int i=0;i<n;i++){
     int flag = 0;
     for(int j=0; j<n-1-i;j++){
@@ -15,7 +16,7 @@ bubblesort(int arr , int n){
     }
 }
 }
-printsorted(int arr , int n){
+printsorted(int arr[] , int n){
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
